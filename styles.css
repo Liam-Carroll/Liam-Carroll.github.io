@@ -1,0 +1,21 @@
+body{background-color: #f7f4e9;}
+
+.link{
+  text-align: center;
+}
+
+.intro{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.tile{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.generalBox{
+  width: 700px;
+  margin: auto;
+}
