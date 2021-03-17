@@ -1,0 +1,39 @@
+/*nav*/
+.navbar{
+  overflow:hidden;
+  background-color: #f2f2f2;
+  
+}
+
+/*each link element in nav*/
+.navbar a{
+  float: up;/*elements float up*/
+  display: inline-block;/*creates block +padding instead of underlined link*/
+  color: #0f0f0f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*when mouse hovers over link*/
+.navbar a:hover{
+  /*float: up;/*elements float up(wont need/nochange)*/
+  display: inline-block;/*allows padding*/
+  color: #f2f2f2;
+  background-color: #0f0f0f;/*swapping text and background color*/
+  text-decoration: none;/*no underline (defauly on a)*/
+}
+
+/*gets rid of bullets and padding*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*if the screen is less than 910px wide apply styles below*/
+@media screen and (max-width: 910px) {
+li {
+  display: inline;
+}
+}/*END Compatability*/
